@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="UTF-8">  
+                <meta name="keywords" content="HTML, CSS, JavaScript">
+                <meta name="author" content="Zachary Venz D. Valenzona">
+                <meta name="revised" content="10-24-2023">
+	</head>
+    <body>
+		<h2>
+        <div class="search-container">
+        <input type="text" placeholder="Search Anime...">
+		<a href="Full.html" class="fullsite">View Full Site></a>
+		</h2>
+    </div>
+        <nav>
+            <ul>  
+                <a href="anix.html" class="navButton">About</a>
+                <li class="navButton">Types</li>
+                <li class="navButton">Manga</li>
+                <li class="navButton">Home</li>
+            </ul>
+         
+            <img src="sunnylogo.webp" alt="" class="logo"> 
+
+			<h1 class="webTitle">SunnyGoAdventures</h1>
+			
+        </nav>
+        <img class="cover" src="wallpaperbetter.jpg" alt="">	
+		
+		
+
+
+        
+			
+			
+            
+
+	</body>
+    <style>
+       
+       *{
+            margin: 0;
+        }
+		
+		
+
+        .search-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            size: 250px;
+			width: 500px;
+        }
+
+        .search-container input {
+			height: 15px;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+ 
+        /* top botton navigation style properties 
+            HOME, MANGA, TYPES, ABOUT...
+
+            list-style-type:none to remove the bullets or dots
+            float:right to make the elements floating to the right side
+        */
+        .navButton{
+            padding: 20px;
+            font-family: monospace;
+            color: #BDC9D7;
+            list-style-type: none;
+            float: right;
+            font-size: 35px;
+            border-left: 1px solid black;
+        }
+		
+
+
+        /* top navigation style properties 
+            position:fixed to make the navigation bar stick at the top most part of the webpage
+            gradient is from https://cssgradient.io/
+            */
+        nav{
+            width: 100%;
+            position: fixed;
+            height: 80px;
+            background: linear-gradient(90deg, rgba(11,12,41,1) 0%, rgba(16,16,135,1) 56%, rgba(4,135,162,1) 100%);}
+
+        /* luffy image as a logo float to the left side of the navigation bar */
+        .logo{
+		
+            height: 90px;
+            float: left;
+        }
+
+        /* web page title font family change to one piece */
+        .webTitle{
+			margin-top: 10px;
+            font-family: "SunnyGoAdventures";
+            font-size: 50px;
+            color: #d34a56;
+        }
+
+        /* big one piece image width set to 100% to 
+        occupy the whole width */
+        .cover{
+            margin-top: 50px;
+            width: 100%;
+        }
+
+        /* div that has a classname textContainer
+        which contains the text of our web page
+        black border is also added
+        */
+        .textContainer{
+            margin-left: 10px;
+            margin-right: 20px;
+            overflow: auto;
+            border: 3px solid black;
+            
+        
+       
+        
+        /* style of the text inside the .textContainer */
+        p{
+            font-size: 30px;
+            text-align: justify;
+            margin-right: 20px;
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+
+
+        /* big wanted image width set to 100% to 
+        occupy the whole width */
+        .wanted{
+            width: 100%;
+            margin-top: 20px;
+        }
+		
+		.fullsite {
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+
+    </style>
+</html>
